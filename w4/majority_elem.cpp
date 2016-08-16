@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// merge sort with extra memory
 vector<int> merge(const vector<int>& left, const vector<int>& right) {
   vector<int> res;
   int i = 0, j = 0;
